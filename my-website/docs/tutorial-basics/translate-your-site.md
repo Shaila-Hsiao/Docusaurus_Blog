@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
+displayed_sidebar: tutorialSidebar
 ---
 
 # Translate your site

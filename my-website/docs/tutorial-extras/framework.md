@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
 sidebar_label: 'framework'
+tags:
+  - framework
+  - Javascript
 ---
 
 # 框架 framework:

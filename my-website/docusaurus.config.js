@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/oceanicNext');
+const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr'],
   },
 
   presets: [
@@ -70,15 +70,35 @@ const config = {
             label: 'book',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   position: 'right',
+          //   label:'Github',
+          //   className: 'header-github-link',
+          //   'aria-label': 'GitHub repository',
+          // },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'search',
             position: 'right',
+          },
+          
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
+          {
+            type: 'localeDropdown',
           },
         ],
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Cat',
+          src: 'img/allergy_cat.png',
+          href: 'https://opensource.facebook.com',
+        },
         links: [
           {
             title: 'Docs',
