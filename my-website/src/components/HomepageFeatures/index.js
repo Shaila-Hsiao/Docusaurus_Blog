@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/Hand coding-rafiki.svg').default,
     description: (
       <p>
-      我是一個平凡的大學生，　<br/>目前就讀於國立暨南國際大學　資訊管理學系的三年級生.
+      我是一個平凡的大學生，　<br/>目前就讀於國立暨南國際大學<br/>資訊管理學系的三年級生.
       </p>
     ),
   },
