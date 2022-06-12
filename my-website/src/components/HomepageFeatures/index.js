@@ -4,13 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Introduction',
+    Svg: require('@site/static/img/Hand coding-rafiki.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <p>
+      我是一個平凡的大學生，　<br/>目前就讀於國立暨南國際大學　資訊管理學系的三年級生.
+      </p>
     ),
   },
   {
