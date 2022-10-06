@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Shaila Blog',
+  title: "Shaila's Blog",
   tagline: 'Welcome to my site ',
   url: 'https://github.com',
   baseUrl: '/Docusaurus_Blog/',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Shaila-Hsiao/Docusaurus_Blog',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Shaila-Hsiao/Docusaurus_Blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'book',
+            label: 'Book',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
@@ -77,16 +77,13 @@ const config = {
           //   className: 'header-github-link',
           //   'aria-label': 'GitHub repository',
           // },
+          
+          
           {
-            type: 'search',
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
             position: 'right',
           },
-          
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
           {
             type: 'localeDropdown',
           },
@@ -133,7 +130,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Shaila-Hsiao',
               },
             ],
           },
