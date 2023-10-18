@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4121],{8070:s=>{s.exports=JSON.parse('[{"label":"framework","permalink":"/Docusaurus_Blog/fr/docs/tags/framework","count":1},{"label":"Javascript","permalink":"/Docusaurus_Blog/fr/docs/tags/javascript","count":1}]')}}]);
